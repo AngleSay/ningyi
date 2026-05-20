@@ -1,0 +1,24 @@
+name = "ningyi-tech-website"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[env.production]
+name = "ningyi-tech-website-prod"
+
+[build]
+command = "pnpm build"
+cwd = "./"
+watch_paths = ["client/src/**/*.tsx", "client/src/**/*.ts", "client/src/**/*.css"]
+
+[build.upload]
+format = "service-worker"
+
+[env.production.build]
+command = "pnpm build"
+cwd = "./"
+
+[[triggers.crons]]
+crons = ["0 0 * * *"]
