@@ -1,0 +1,16 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {},
+  "name": "ningyi-tech-website",
+  "path": "/home/ubuntu/ningyi-tech-website",
+  "port": 3000,
+  "secrets": {
+    "VITE_APP_TITLE": "山西凝一科技有限公司官网"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
