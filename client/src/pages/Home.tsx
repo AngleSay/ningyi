@@ -24,6 +24,7 @@ export default function Home() {
             <a href="#home" className="text-gray-700 hover:text-orange-500 transition-colors text-sm font-medium">首页</a>
             <a href="#about" className="text-gray-700 hover:text-orange-500 transition-colors text-sm font-medium">公司简介</a>
             <a href="#products" className="text-gray-700 hover:text-orange-500 transition-colors text-sm font-medium">产品</a>
+            <a href="/cases" className="text-gray-700 hover:text-orange-500 transition-colors text-sm font-medium">案例</a>
             <a href="#advantages" className="text-gray-700 hover:text-orange-500 transition-colors text-sm font-medium">优势</a>
             <a href="#contact" className="text-gray-700 hover:text-orange-500 transition-colors text-sm font-medium">联系</a>
           </div>
@@ -43,6 +44,7 @@ export default function Home() {
               <a href="#home" className="text-gray-700 hover:text-orange-500 text-sm font-medium py-2" onClick={() => setMobileMenuOpen(false)}>首页</a>
               <a href="#about" className="text-gray-700 hover:text-orange-500 text-sm font-medium py-2" onClick={() => setMobileMenuOpen(false)}>公司简介</a>
               <a href="#products" className="text-gray-700 hover:text-orange-500 text-sm font-medium py-2" onClick={() => setMobileMenuOpen(false)}>产品</a>
+              <a href="/cases" className="text-gray-700 hover:text-orange-500 text-sm font-medium py-2" onClick={() => setMobileMenuOpen(false)}>案例</a>
               <a href="#advantages" className="text-gray-700 hover:text-orange-500 text-sm font-medium py-2" onClick={() => setMobileMenuOpen(false)}>优势</a>
               <a href="#contact" className="text-gray-700 hover:text-orange-500 text-sm font-medium py-2" onClick={() => setMobileMenuOpen(false)}>联系</a>
               <a href="#contact" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg text-sm font-semibold transition-all text-center" onClick={() => setMobileMenuOpen(false)}>咨询</a>
@@ -77,7 +79,7 @@ export default function Home() {
               </div>
             </div>
             <div className="relative h-64 sm:h-80 lg:h-96">
-              <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663643772348/BRvHjRejK9aMLV9A57p5AK/hero-concrete-bridge-2YThq9ntHKmVvWgRKkALSQ.webp" alt="混凝土桥梁" className="w-full h-full object-cover rounded-2xl shadow-2xl" />
+              <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663643772348/BRvHjRejK9aMLV9A57p5AK/china-high-speed-rail-W8sMYhJi4ANrNMGRiCbMmw.webp" alt="中国高铁混凝土工程" className="w-full h-full object-cover rounded-2xl shadow-2xl" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
             </div>
           </div>
