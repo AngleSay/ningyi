@@ -1,0 +1,14 @@
+# Gitee Pages 配置文件
+# 此文件仅用于 gitee 分支的 Gitee Pages 部署
+
+# 构建命令
+build_command: pnpm build
+
+# 输出目录
+build_dir: dist/public
+
+# 部署分支
+deploy_branch: gitee
+
+# 项目名称
+project_name: ningyi-tech-website
