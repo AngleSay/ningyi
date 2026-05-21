@@ -1,24 +1,18 @@
 name = "ningyi-tech-website"
 type = "javascript"
-account_id = ""
-workers_dev = true
-route = ""
-zone_id = ""
-
-[env.production]
-name = "ningyi-tech-website-prod"
+compatibility_date = "2026-05-21"
 
 [build]
 command = "pnpm build"
 cwd = "./"
-watch_paths = ["client/src/**/*.tsx", "client/src/**/*.ts", "client/src/**/*.css"]
 
-[build.upload]
+[env.production]
+name = "ningyi-tech-website-prod"
+
+[[build.upload]]
 format = "service-worker"
 
-[env.production.build]
-command = "pnpm build"
-cwd = "./"
-
-[[triggers.crons]]
-crons = ["0 0 * * *"]
+[build.upload.rules]
+type = "CompiledContentType"
+globs = ["**/*.wasm"]
+fallthrough = true
